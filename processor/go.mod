@@ -1,4 +1,4 @@
-module processor
+module github.com/Jacobbrewer1/network-sniffer/processor
 
 go 1.20
 

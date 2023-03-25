@@ -1,4 +1,4 @@
-module scraper
+module github.com/Jacobbrewer1/network-sniffer/scraper
 
 go 1.20
 
