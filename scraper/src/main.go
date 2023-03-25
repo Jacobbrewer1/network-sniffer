@@ -3,9 +3,9 @@ package main
 import (
 	"errors"
 	"flag"
+	"github.com/Jacobbrewer1/network-sniffer/scraper/src/config"
+	"github.com/Jacobbrewer1/network-sniffer/scraper/src/entities"
 	"log"
-	"scraper/src/config"
-	"scraper/src/entities"
 	"strconv"
 	"time"
 )

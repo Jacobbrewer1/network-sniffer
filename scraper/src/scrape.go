@@ -4,12 +4,12 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
+	"github.com/Jacobbrewer1/network-sniffer/scraper/src/config"
 	"golang.org/x/net/context"
 	"golang.org/x/net/html"
 	"io"
 	"log"
 	"net/http"
-	"scraper/src/config"
 	"strings"
 	"time"
 )

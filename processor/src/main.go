@@ -3,12 +3,12 @@ package main
 import (
 	"flag"
 	"fmt"
+	"github.com/Jacobbrewer1/network-sniffer/processor/src/config"
+	"github.com/Jacobbrewer1/network-sniffer/processor/src/response"
 	"github.com/gorilla/mux"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"log"
 	"net/http"
-	"processor/src/config"
-	"processor/src/response"
 )
 
 type controller func(w http.ResponseWriter, r *http.Request)

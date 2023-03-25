@@ -2,11 +2,11 @@ package main
 
 import (
 	"encoding/json"
+	"github.com/Jacobbrewer1/network-sniffer/processor/src/entities"
+	"github.com/Jacobbrewer1/network-sniffer/processor/src/response"
 	"io"
 	"log"
 	"net/http"
-	"processor/src/entities"
-	"processor/src/response"
 )
 
 func metricsController(w http.ResponseWriter, r *http.Request) {

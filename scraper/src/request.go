@@ -5,9 +5,9 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
+	"github.com/Jacobbrewer1/network-sniffer/scraper/src/entities"
 	"io"
 	"net/http"
-	"scraper/src/entities"
 	"strings"
 	"time"
 )
